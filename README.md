@@ -1,4 +1,4 @@
-# Privacy Preserving Data Stream Perturbation
+# Optimizing the Trade-off Between Data Privacy and Classification Accuracy in Data Stream Mining
 
 This repository contains experimentation with variations of cumulative noise additions performing
 privacy-preserving data stream mining. Adaptive random forest for the classification and known I/O attacks to measure the privacy has been used.
