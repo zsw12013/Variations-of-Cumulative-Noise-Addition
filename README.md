@@ -19,10 +19,6 @@ sub-folder before the notebooks that depend on those datasets.
 * Java (>= 1.8.0)
 * Leiningen (>= 2.0)
 
-## Running Tests
-
-`make run-tests`
-
 
 ## Further Usage
 
