@@ -25,6 +25,8 @@ COPY project.clj /home/beakerx/ppdsp/project.clj
 RUN /bin/bash -c "source activate beakerx && cd /home/beakerx/ppdsp/ && lein deps && source deactivate"
 
 # Install Python dependencies
+RUN /opt/conda/envs/beakerx/bin/python -m pip install --upgrade pip
+
 RUN /opt/conda/envs/beakerx/bin/python -m pip install pandas  scikit-learn  numpy  orange3 PyQt5  scipy scikit-posthocs
 
 # Install Machine-Optimized Libraries for Smile
