@@ -27,7 +27,7 @@ RUN /bin/bash -c "source activate beakerx && cd /home/beakerx/ppdsp/ && lein dep
 # Install Python dependencies
 RUN /opt/conda/envs/beakerx/bin/python -m pip install --upgrade pip
 
-RUN /opt/conda/envs/beakerx/bin/python -m pip install pandas  scikit-learn  numpy  orange3 PyQt5  scipy scikit-posthocs
+RUN /opt/conda/envs/beakerx/bin/python -m pip install pandas  scikit-learn  numpy  orange3 PyQt5  scipy scikit-posthocs Cython
 
 # Install Machine-Optimized Libraries for Smile
 USER root
